@@ -29,7 +29,7 @@ users_blueprint = Blueprint(
 
 @user_blueprints.route('/', methods=[ "GET"])
 def search():
-    return render_template("users/search.html")
+    return render_template("search.html")
 
 
 @user_blueprints.route('/results', methods=["GET"])
